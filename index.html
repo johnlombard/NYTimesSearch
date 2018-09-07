@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <!-- FORM -->
+                    <form>
+                        <div class="form-group">
+                            <label for="inputSearchTerm">Search Term</label>
+                            <input type="search-term" class="form-control" id="inputSearchTerm" placeholder="Enter search term">
+                        </div>
+                        <label for="inputNumber">Number of Records to Retrieve</label>
+                        <div class="input-group mb-3">
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <!-- <option selected>Choose...</option> -->
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputStartYear">Start Year (Optional)</label>
+                            <input type="search-term" class="form-control" id="inputStartYear" placeholder="Enter start year">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEndYear">End Year (Optional)</label>
+                            <input type="search-term" class="form-control" id="inputEndYear" placeholder="Enter end year">
+                        </div>
+                        <button id= "submit" type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <!-- END FORM -->
+                </div>
+                <!-- HEADER TEXT -->
+                <div class="col-2">
+                    <h1 class="display-2">WE<br>LOVE<br>THE<br>NEWS!</h1>
+                </div>
+                <!-- END HEADER TEXT -->
+            </div>
+        </div>
+        <!-- END JUMBOTRON -->
+    </div>
+    
+    <!-- DISPLAY -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img id="img-card-i" class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 id="title-card-i" class="card-title">Headline Title</h5>
+                        <p id="date-card-i">Data Published</p>
+                        <p class="card-text" id="snippet-card-i">Some quick example text to build on the card title and make
+                            up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img id="img-card-i" class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title-i">Headline Title</h5>
+                        <p id="date-card-i">Data Published</p>
+                        <p class="card-text" id="snippet-card-i">Some quick example text to build on the card title and make
+                            up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div id="img-card-i" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Headline Title</h5>
+                        <p id="date-card-i">Data Published</p>
+                        <p class="card-text" id="snippet-card-i">Some quick example text to build on the card title and make
+                            up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img id="img-card-i" class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Headline Title</h5>
+                        <p id="date-card-i">Data Published</p>
+                        <p class="card-text" id="snippet-card-i">Some quick example text to build on the card title and make
+                            up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img id="img-card-i" class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Headline Title</h5>
+                        <p id="date-card-i">Data Published</p>
+                        <p class="card-text" id="snippet-card-i">Some quick example text to build on the card title and make
+                            up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img id="img-card-i" class="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Headline Title</h5>
+                        <p id="date-card-i">Data Published</p>
+                        <p class="card-text" id="snippet-card-i">Some quick example text to build on the card title and make
+                            up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END DISPLAY -->
+    <!-- BEGIN MODAL SECTIONS-->
+    <div id="modal-section">
+        <!-- MODAL EXAMPLE #1 -->
+        <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="header-title-modal-i">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-12">
+                            <img id="article-img-modal-i" scr="https://via.placeholder.com/350x150" class="img-fluid">
+                        </div>
+                        <p id="date-published-modal-i" class="d-block">Data Published</p>
+                        <p id="snippet-modal-i">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit optio
+                            consectetur unde iusto, illo fuga dignissimos exercitationem maiores ducimus quia earum
+                            suscipit reprehenderit iure? Veritatis maiores sed asperiores. Natus, dignissimos.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                        <button type="button" class="btn btn-primary">Full Article</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="text/javascript">
+
+       $("#submit").on("click", function (event) {
+           event.preventDefault();
+
+           console.log("submit.click");
+
+           var subject = $("#inputSearchTerm").val(); // this will go into q
+
+           var beginDate  = $("#inputStartYear").val(); // this will go into being_date
+
+           var endDate = $("#inputEndYear").val(); //
+
+           var articleCount = $("#inputGroupSelect01").val(); //
+
+           var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
+           url += '?' + $.param({
+           'api-key': "5c8603ff7a044c7c931b5ac86805b35c",
+        //    'q': subject , // this is the subject
+        //    'begin_date': beginDate, //begin date
+        //    'end_date': endDate, //
+        //    'page': articleCount, // number of articles
+
+       });
+
+       $.ajax({
+           url: url,
+           method: 'GET',
+
+       }).then(function (result) {
+           console.log(result);
+           var results = result.data;
+           
+
+
+
+
+           for (var i = 0; i < result.length; i++) {
+
+
+               var headlines = result.response.docs[i].headline.main //what the user will see
+
+
+               $("#articles").append(headlines);
+
+               console.log(headlines);
+
+           }
+        
+
+        });
+   
+
+       });
+   </script>
+</body>
+</html>
